@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# But keep the gitignore itself
+!.gitignore
+
+# Allow directories so we can selectively include files inside them
+!*/
+
+# Keep only README files (case variations)
+!README
+!README.md
+!Readme.md
+!readme.md
+
+# Always include data/ and docs/ (and everything inside them)
+!data/
+!data/**
+!docs/
+!docs/**
