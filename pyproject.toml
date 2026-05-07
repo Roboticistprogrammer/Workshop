@@ -1,0 +1,8 @@
+[project]
+name = "workshop"
+version = "0.1.0"
+description = "Threading and performance optimization workshop"
+requires-python = ">=3.8"
+dependencies = [
+    "opencv-python>=4.8.0",
+]
